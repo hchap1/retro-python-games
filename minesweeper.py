@@ -5,7 +5,7 @@ from enum import Enum
 
 pygame.init()
 screen = pygame.display.set_mode((800, 800), vsync = True)
-font = pygame.font.Font("assets\\monofont.ttf", 80)
+font = pygame.font.Font("minesweeper_assets\\monofont.ttf", 80)
 clock = pygame.time.Clock()
 size = 10
 running = True
